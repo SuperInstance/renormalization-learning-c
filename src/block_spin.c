@@ -115,6 +115,7 @@ int compute_beta_function(double g, const lattice_t *lat, int b,
                           double zeta, double eps,
                           double *out_beta)
 {
+    (void)eps;  /* reserved for future use */
     if (!lat || !out_beta) return -1;
 
     /* Scale the lattice to coupling g (uniform scaling of all sites) */

@@ -119,7 +119,7 @@ const lattice_t *rgflow_level(const rl_rgflow_t *flow, int i);
  * @param lat        reference lattice prepared at coupling g
  * @param b          block factor
  * @param zeta       scale factor
- * @param eps        small epsilon for numerical derivative (g+eps, g-eps)
+ * @param eps        (unused, reserved for future use)
  * @param out_beta   output: beta(g)
  * @return 0 on success, -1 on error
  */
